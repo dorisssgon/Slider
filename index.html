@@ -126,12 +126,9 @@
     .navbar {
       overflow: hidden
     }
-    .text1 {
+    .image-title {
     	position:absolute;
-    	top:100%;
     	left:40%;
-    	width:25%;
-    	z-index:2;
     }
   </style>
   <!-- End SlidesJS Optional-->
@@ -186,22 +183,22 @@
   <!-- The container is used to define the width of the slideshow -->
   <div class="container">
     <div id="slides">
-      <s:iterator>
-    <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-      <span  class="text1">This is the first image.</span>
-    </s:iterator>
-    <s:iterator>
-    <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-    <span  class="text1">This is the second image.</span>
-    </s:iterator>
-    <s:iterator>
-    <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-    <span  class="text1">This is the third image.</span>
-    </s:iterator>
-    <s:iterator>
-    <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-    <span  class="text1">This is the fourth image.</span>
-    </s:iterator>
+      <div>
+        <img style="width:100%"src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+        <span  class="image-title">This is the first image.</span>
+      </div>
+      <div>
+        <img style="width:100%"src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+        <span  class="image-title">This is the second image.</span>
+      </div>
+      <div>
+        <img style="width:100%"src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+        <span  class="image-title">This is the third image.</span>
+      </div>
+      <div>
+        <img style="width:100%"src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+        <span  class="image-title">This is the fourth image.</span>
+      </div>
     </div>
   </div>
   <!-- End SlidesJS Required: Start Slides -->
